@@ -1,0 +1,51 @@
+[    
+    {
+        "name": "Home",
+        "method": "GET",
+        "route": "/",
+        "controller":"/controllers/page.controller.php",
+        "middlewares": []
+    },    
+    {
+        "name": "Home",
+        "method": "GET",
+        "route": "/home",
+        "controller":"/controllers/page.controller.php",
+        "middlewares": []
+    },
+    {
+        "name": "Login",
+        "method": "GET",
+        "route": "/login",
+        "controller":"/controllers/page.controller.php",
+        "middlewares": []
+    },    
+    {
+        "name": "Login",
+        "method": "POST",
+        "route": "/login",
+        "controller":"/controllers/login.controller.php",
+        "middlewares": []
+    },    
+    {
+        "name": "Dashboard",
+        "method": "GET",
+        "route": "/dashboard",
+        "controller":"/controllers/page.controller.php",
+        "middlewares": []
+    },
+    {
+        "name": "Blog",
+        "method": "GET",
+        "route": "/blog",
+        "controller":"/controllers/blog.controller.php",
+        "middlewares": []
+    },
+    {
+        "name": "Portfolio",
+        "method": "GET",
+        "route": "/portfolio",
+        "controller":"/controllers/page.controller.php",
+        "middlewares": []
+    }
+]
